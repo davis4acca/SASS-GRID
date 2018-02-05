@@ -1,0 +1,14 @@
+{
+  "name": "scss-grid",
+  "version": "1.0.0",
+  "description": "SASS GRID",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "author": "Davis Jaunbruns",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

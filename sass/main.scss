@@ -1,0 +1,20 @@
+@import "grid";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // default font-size = 16px
+  // 10px = 62.5% of 16px
+
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+}
